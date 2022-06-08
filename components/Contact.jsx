@@ -1,10 +1,6 @@
-import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 const Contact = () => {
 	return (

@@ -1,8 +1,9 @@
+import Link from 'next/link';
 import React from 'react';
 import background from '../public/assets/tamar-bg.jpg';
 // ../public/assets/projects/crypto.jpg
 import Image from 'next/dist/client/image';
-import Link from 'next/dist/client/link';
+
 import { FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 const Main = () => {
