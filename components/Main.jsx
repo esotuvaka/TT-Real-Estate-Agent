@@ -1,44 +1,73 @@
 import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import background from '../public/assets/tamar-bg.jpg';
+// ../public/assets/projects/crypto.jpg
+import Image from 'next/dist/client/image';
+import Link from 'next/dist/client/link';
+import { FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 const Main = () => {
-  return (
-    <div id='home' className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-        <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
-            LET'S BUILD SOMETHING TOGETHER
-          </p>
-          <h1 className='py-4 text-gray-700'>
-            Hi, I'm <span className='text-[#5651e5]'> Clint</span>
-          </h1>
-          <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
-          <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-            I’m a front-end web developer specializing in building (and
-            occasionally designing) exceptional digital experiences. Currently,
-            I’m focused on building responsive front-end web applications while
-            learning back-end technologies.
-          </p>
-          <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <FaLinkedinIn />
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <FaGithub />
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                </div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <BsFillPersonLinesFill />
-                </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+	return (
+		<>
+			<div id="home" className="w-full h-screen text-center">
+				<div className="mx-auto md:left-0 justify-center bottom-0 flex md:ml-48 absolute">
+					<div className="flex items-center max-w-[300px] justify-center py-4">
+						<a
+							rel="noreferrer"
+							href="https://www.linkedin.com/in/tamartarkhanian/"
+							target="_blank"
+							className="p-6 cursor-pointer text-white hover:text-teal-800 hover:scale-110 ease-in duration-300"
+							alt="Link to Tamar's LinkedIn"
+						>
+							<FaLinkedinIn />
+						</a>
+						<a
+							rel="noreferrer"
+							href="https://www.facebook.com/tamartarkhanianrealtor"
+							target="_blank"
+							className="p-6 cursor-pointer text-white hover:text-teal-800 hover:scale-110 ease-in duration-300"
+							alt="Link to Tamar's Facebook"
+						>
+							<FaFacebook />
+						</a>
+						<a
+							rel="noreferrer"
+							href="https://www.instagram.com/tamartar/"
+							target="_blank"
+							className="p-6 cursor-pointer text-white hover:text-teal-800 hover:scale-110 ease-in duration-300"
+							alt="Link to Tamar's Instagram"
+						>
+							<FaInstagram />
+						</a>
+					</div>
+				</div>
+				<div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+					<div className="fixed -z-20 top-0 w-full h-screen bg-neutral-500">
+						<Image
+							className="bg-blend-overlay bg-center bg-no-repeat bg-cover w-full"
+							id="hero"
+							layout="fill"
+							objectFit="cover"
+							src={background}
+							alt="Background showing a modern wooden beach house"
+						/>
+					</div>
+					<div className="z-10 absolute mx-auto">
+						<h1 className="py-2 text-white text-8xl">
+							Let&apos;s find your dream home
+						</h1>
+						<p className="py-4 text-white max-w-[80%] m-auto text-3xl">
+							Best possible price and terms
+						</p>
+						<div className="">
+							<button className="bg-transparent hover:px-8 border hover:border-teal-800 hover:text-white hover:bg-teal-800 border-white transition-all duration-500">
+								<Link href="/#contact">BOOK AN APPOINTMENT</Link>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</>
+	);
 };
 
 export default Main;

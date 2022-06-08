@@ -3,31 +3,40 @@
 @tailwind utilities;
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 @layer base {
-  body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
-  }
+	body {
+		@apply tracking-wide;
+	}
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold
-  }
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-bold;
+	}
 
-  h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl
-  }
+	h1 {
+		@apply text-4xl font-["Italiana"] sm:text-5xl md:text-6xl;
+	}
 
-  h2 {
-    @apply text-3xl sm:text-4xl
-  }
-  
-  li {
-    @apply cursor-pointer
-  }
+	h2 {
+		@apply text-3xl font-["Italiana"] sm:text-4xl;
+	}
 
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
-  }
+	li {
+		@apply cursor-pointer;
+	}
+
+	p {
+		@apply font-["Roboto"] text-neutral-800;
+	}
+
+	button {
+		@apply hover:shadow-xl hover:px-8 font-bold tracking-wider transition-all duration-500 hover:-translate-y-0.5 shadow-gray-400  uppercase bg-teal-800 px-5 py-2 text-white;
+	}
 }
