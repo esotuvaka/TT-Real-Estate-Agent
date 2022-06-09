@@ -8,15 +8,15 @@ const Contact = () => {
 			<div id="contact" className="w-full lg:h-screen bg-white">
 				<div id="spacer" className="py-5 bg-white"></div>
 				<div className="max-w-[1240px] m-auto px-2 py-16 w-full  ">
-					<h1 className="text-xl tracking-widest uppercase text-teal-800">
+					<h1 className="mb-2 md:mb-0 text-xl tracking-widest uppercase text-teal-800">
 						Contact
 					</h1>
-					<h2 className="py-4">Get In Touch</h2>
+					<h2 className="hidden md:flex py-4">Get In Touch</h2>
 					<div className="grid lg:grid-cols-5 gap-8">
 						{/* left */}
 						<div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 md:rounded-xl p-4">
 							<div className="lg:p-4 h-full ">
-								<div className="flex justify-center">
+								<div className="hidden md:flex justify-center">
 									<Image
 										src="/../public/assets/tamar profile.jpg"
 										alt="/"
@@ -26,13 +26,13 @@ const Contact = () => {
 									/>
 								</div>
 								<div className="flex flex-col justify-center items-center">
-									<h2 className="py-2">Tamar Tarkhanian</h2>
+									<h2 className="md:py-2">Tamar Tarkhanian</h2>
 									<p className="">Coldwell Banker Realty | DRE #01891979</p>
 									<p className="pt-4 text-teal-800 font-bold">PHONE</p>
 									<p className="">714.813.2034</p>
 								</div>
 								<div>
-									<div className="flex items-center max-w-[300px] mx-auto justify-center py-4">
+									<div className="flex items-center max-w-[300px] mx-auto justify-center md:py-4">
 										<a
 											rel="noreferrer"
 											href="https://www.linkedin.com/in/tamartarkhanian/"

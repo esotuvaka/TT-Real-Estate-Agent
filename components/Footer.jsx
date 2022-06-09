@@ -7,7 +7,7 @@ const Footer = () => {
 	return (
 		<footer>
 			<section id="footer-grid" className="bg-neutral-200">
-				<div className="grid grid-cols-3 w-11/12 max-w-[1240px] mx-auto">
+				<div className="grid grid-cols-3 w-11/12 max-w-[1240px] mx-auto border-b border-neutral-300">
 					<div id="DRE-info" className="py-7">
 						<p className="font-semibold">Tamar Tarkhanian Realtor®</p>
 						<p>CalDRE#: 01891979</p>
@@ -15,7 +15,7 @@ const Footer = () => {
 						<p>31582 Coast Hwy , Laguna Beach, CA</p>
 					</div>
 					<div id="Socials">
-						<ul className="flex flex-col  mx-auto justify-center py-4">
+						<ul className="flex flex-col  mx-auto justify-center py-5 md:py-4">
 							<li>
 								<a
 									rel="noreferrer"
@@ -54,17 +54,17 @@ const Footer = () => {
 					<div id="Links" className="py-7">
 						<ul className="flex-col ">
 							<Link href="/">
-								<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500">
+								<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500 mb-4">
 									Home
 								</p>
 							</Link>
 							<Link href="/#about">
-								<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500">
+								<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500 mb-4">
 									About
 								</p>
 							</Link>
 							<Link href="/#properties">
-								<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500">
+								<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500 mb-4">
 									Properties
 								</p>
 							</Link>
@@ -76,10 +76,7 @@ const Footer = () => {
 						</ul>
 					</div>
 				</div>
-				<div
-					id="CB-fair-housing"
-					className="max-w-[1240px] mx-auto border-t border-neutral-300"
-				>
+				<div id="CB-fair-housing" className="max-w-[1240px] mx-auto">
 					<div className="flex justify-center pt-7">
 						<Image
 							id="fair-housing-logo"
@@ -104,9 +101,12 @@ const Footer = () => {
 			</section>
 			<section
 				id="copyright"
-				className="bg-neutral-300 py-4 mx-auto text-center md:text-left md:ml-64"
+				className="bg-neutral-300 py-4 mx-auto text-center md:text-left"
 			>
-				Copyright © 2022 Tamar Tarkhanian
+				<div className="flex justify-between w-11/12 mx-auto lg:w-4/5">
+					<div>Copyright © 2022 Tamar Tarkhanian</div>
+					<div>Site built by esotuvaka</div>
+				</div>
 			</section>
 		</footer>
 	);

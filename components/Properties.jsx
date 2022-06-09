@@ -13,7 +13,7 @@ import SoldItem from './SoldItem';
 const Properties = () => {
 	return (
 		<div id="properties" className="w-full lg:h-screen p-2 bg-white">
-			<div className="max-w-[1800px] mx-auto px-2 py-16 my-20">
+			<div className="max-w-[1800px] mx-auto px-2 py-16 md:my-20">
 				<h1 className="max-w-[1240px] mx-auto text-center text-xl tracking-widest uppercase text-teal-800">
 					Properties
 				</h1>

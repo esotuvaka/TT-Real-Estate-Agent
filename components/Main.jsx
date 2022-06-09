@@ -53,14 +53,17 @@ const Main = () => {
 						/>
 					</div>
 					<div className="z-10 absolute mx-auto">
-						<h1 className="py-2 text-white text-8xl">
+						<h1 className="py-2 text-white text-6xl md:text-8xl">
 							Let&apos;s find your dream home
 						</h1>
-						<p className="py-4 text-white max-w-[80%] m-auto text-3xl">
+						<p className="pb-4 md:py-4 text-white max-w-[80%] m-auto text-2xl md:text-3xl">
 							Best possible price and terms
 						</p>
 						<div className="">
-							<button className="bg-transparent hover:px-8 border hover:border-teal-800 hover:text-white hover:bg-teal-800 border-white transition-all duration-500">
+							<button
+								className="bg-teal-800 border-teal-800 md:bg-transparent hover:px-8 border active:border-teal-800 active:bg-teal-800 active:text-white 
+							hover:border-teal-800 hover:text-white hover:bg-teal-800 md:border-white transition-all duration-500"
+							>
 								<Link href="/#contact">BOOK AN APPOINTMENT</Link>
 							</button>
 						</div>

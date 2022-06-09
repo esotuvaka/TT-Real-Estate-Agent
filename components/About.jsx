@@ -15,11 +15,11 @@ const About = () => {
 					</h1>
 					<h1 className="py-4">Meet Tamar Tarkhanian</h1>
 
-					<p className="py-2 text-gray-600">
+					<p className="py-2 text-gray-600 2xl:text-xl">
 						Team up with a trusted neighborhood partner, and make your real
 						estate dreams come true.
 					</p>
-					<p className="py-2 text-gray-600">
+					<p className="py-2 text-gray-600 2xl:text-xl">
 						I know this area - the right pricing, the latest listings, the ins
 						and outs and the buzz around town. From search to sale, I&apos;ll
 						provide expert advice and unwavering support to help make your
@@ -29,7 +29,7 @@ const About = () => {
 						information giving me the edge necessary in today&apos;s fast-paced
 						market.
 					</p>
-					<p className="py-2 text-gray-600">
+					<p className="py-2 text-gray-600 2xl:text-xl">
 						Whether it&apos;s finding you a home with everything on your
 						checklist or helping you get ready to move, I&apos;ve got you
 						covered - advertising, financing, inspection and closing assistance,
@@ -38,9 +38,11 @@ const About = () => {
 						your home fast. Give me a call or stop by, I&apos;m right in the
 						neighborhood!
 					</p>
-					<Link href="/#properties">
-						<button className="mx-auto mt-8 flex"> Current listings</button>
-					</Link>
+					{/* <Link href="/#properties">
+						<button className="mx-auto md:mb-0 my-8 flex">
+							Current listings
+						</button> 2xl:text-xl
+					</Link> */}
 				</div>
 				<div className="w-full h-auto m-auto shadow-xl shadow-gray-400  flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
 					<Image
