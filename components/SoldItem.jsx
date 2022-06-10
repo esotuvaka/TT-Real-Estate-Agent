@@ -2,14 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const SoldItem = ({
-	area,
-	price,
-	title,
-	backgroundImg,
-	projectUrl,
-	lStatus,
-}) => {
+const SoldItem = ({ area, price, title, backgroundImg, lStatus }) => {
 	return (
 		<div className="relative flex items-center justify-center h-auto w-full shadow-xl hover:shadow-none shadow-gray-400 bg-white p-2 group hover:bg-neutral-700 transition-all duration-500">
 			<Image
