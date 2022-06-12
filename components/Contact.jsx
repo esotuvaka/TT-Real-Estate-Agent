@@ -21,7 +21,7 @@ const Contact = () => {
 							<div className="lg:p-4 h-full ">
 								<div className="hidden md:flex justify-center">
 									<Image
-										src="/../public/assets/tamar-profile.jpg"
+										src="/../public/assets/tt-branding/tamar-profile.jpg"
 										alt="/"
 										width="300"
 										height="400"

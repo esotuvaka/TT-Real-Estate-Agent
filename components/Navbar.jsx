@@ -92,10 +92,11 @@ const Navbar = () => {
 						<div className="flex w-full items-center justify-between">
 							<Link href="/">
 								<Image
-									src="/../public/assets/tamar logo black.png"
+									src="/../public/assets/tt-branding/tamar-logo-b.png"
 									width="50"
 									height="50"
 									alt="/"
+									priority
 								/>
 							</Link>
 							<div
