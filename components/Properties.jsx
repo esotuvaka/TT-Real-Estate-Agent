@@ -20,7 +20,7 @@ const Properties = () => {
 				<h2 className="max-w-[1240px] mx-auto text-center py-4">
 					Previously Sold
 				</h2>
-				<div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+				<div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 lg:gap-4 xl:gap-6">
 					<SoldItem
 						title="24301 Red Spruce Avenue "
 						area="Murrieta, CA, 92562 "
@@ -43,7 +43,7 @@ const Properties = () => {
 						lStatus="Sold"
 					/>
 					<SoldItem
-						title="28690 Brush Canyon Dr."
+						title="28690 Brush Canyon"
 						area="Yorba Linda, CA, 92887"
 						price="$1,450,000"
 						backgroundImg={sold4}

@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import pfp from '../public/assets/tt-branding/tamar-profile.jpg';
 
 const Contact = () => {
 	return (
@@ -21,7 +22,7 @@ const Contact = () => {
 							<div className="lg:p-4 h-full ">
 								<div className="hidden md:flex justify-center">
 									<Image
-										src="/../public/assets/tt-branding/tamar-profile.jpg"
+										src={pfp}
 										alt="/"
 										width="300"
 										height="400"

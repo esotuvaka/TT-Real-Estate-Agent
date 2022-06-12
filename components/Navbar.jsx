@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaInstagram, FaFacebook, FaLinkedinIn } from 'react-icons/fa';
+import Logo from '../public/assets/tt-branding/tamar-logo-b.png';
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
@@ -37,7 +38,7 @@ const Navbar = () => {
 			<div className="flex justify-between items-center w-4/5 md:max-w-[1240px] mx-auto h-full  ">
 				<Link href="/" className="w-[50px] h-[50px]">
 					<Image
-						src="/../public/assets/tamar-logo-b.png"
+						src={Logo}
 						alt="/"
 						width="50"
 						height="50"

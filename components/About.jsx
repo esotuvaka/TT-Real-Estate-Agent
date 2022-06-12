@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import pfp from '../public/assets/tt-branding/tamar-profile.jpg';
 
 const About = () => {
 	return (
@@ -46,7 +46,7 @@ const About = () => {
 				</div>
 				<div className="w-full h-auto m-auto shadow-xl shadow-gray-400  flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
 					<Image
-						src="/../public/assets/tt-branding/tamar-profile.jpg"
+						src={pfp}
 						alt="Tamar Tarkhanian"
 						width="400"
 						height="500"
