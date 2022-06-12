@@ -2,6 +2,7 @@ import React from 'react';
 import { FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import Link from 'next/dist/client/link';
 import Image from 'next/dist/client/image';
+import eoh from '../public/assets/tt-branding/equal-housing-opportunity-logo-black-and-white.png';
 
 const Footer = () => {
 	return (
@@ -82,7 +83,7 @@ const Footer = () => {
 							id="fair-housing-logo"
 							width="100px"
 							height="100px"
-							src="/../public/assets/equal-housing-opportunity-logo-black-and-white.png"
+							src={eoh}
 							className="mx-auto"
 							alt="equal housing opportunity logo"
 						/>
