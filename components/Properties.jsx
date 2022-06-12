@@ -15,12 +15,12 @@ const Properties = () => {
 		<div id="properties" className="w-full lg:h-screen p-2 bg-white">
 			<div className="max-w-[1800px] mx-auto px-2 py-16 md:my-20">
 				<h1 className="max-w-[1240px] mx-auto text-center text-xl tracking-widest uppercase text-teal-800">
-					Properties
+					Browse our Exclusive Listings
 				</h1>
 				<h2 className="max-w-[1240px] mx-auto text-center py-4">
-					Browse our Exclusive Listings
+					Previously Sold
 				</h2>
-				<div className="grid md:grid-cols-4 gap-8">
+				<div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
 					<SoldItem
 						title="24301 Red Spruce Avenue "
 						area="Murrieta, CA, 92562 "

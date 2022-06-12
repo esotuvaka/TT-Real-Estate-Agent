@@ -5,20 +5,23 @@ import { FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 const Contact = () => {
 	return (
 		<>
-			<div id="contact" className="w-full lg:h-screen bg-white">
-				<div id="spacer" className="py-5 bg-white"></div>
-				<div className="max-w-[1240px] m-auto px-2 py-16 w-full  ">
+			<div
+				id="contact"
+				className="w-full lg:h-screen bg-white lg:mb-8 2xl:mb-0"
+			>
+				<div id="spacer" className="h-20  bg-white"></div>
+				<div className="max-w-[1240px] m-auto px-2  w-full  ">
 					<h1 className="mb-2 md:mb-0 text-xl tracking-widest uppercase text-teal-800">
 						Contact
 					</h1>
-					<h2 className="hidden md:flex py-4">Get In Touch</h2>
+					<h2 className="hidden md:flex  ">Get In Touch</h2>
 					<div className="grid lg:grid-cols-5 gap-8">
 						{/* left */}
-						<div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 md:rounded-xl p-4">
+						<div className="col-span-3 lg:col-span-2 w-full h-full lg:shadow-xl shadow-gray-400 md:rounded-xl p-4">
 							<div className="lg:p-4 h-full ">
 								<div className="hidden md:flex justify-center">
 									<Image
-										src="/../public/assets/tamar profile.jpg"
+										src="/../public/assets/tamar-profile.jpg"
 										alt="/"
 										width="300"
 										height="400"
@@ -32,7 +35,7 @@ const Contact = () => {
 									<p className="">714.813.2034</p>
 								</div>
 								<div>
-									<div className="flex items-center max-w-[300px] mx-auto justify-center md:py-4">
+									<div className="flex items-center max-w-[300px] mx-auto justify-center lg:py-4">
 										<a
 											rel="noreferrer"
 											href="https://www.linkedin.com/in/tamartarkhanian/"
@@ -67,7 +70,7 @@ const Contact = () => {
 
 						{/* right */}
 						<div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 md:rounded-xl lg:p-4">
-							<div className="p-4">
+							<div className="p-4 ">
 								<form>
 									<div className="grid md:grid-cols-2 gap-4 w-full py-2">
 										<div className="flex flex-col">
@@ -130,6 +133,7 @@ const Contact = () => {
 						</div>
 					</div>
 				</div>
+				<div id="spacer" className="h-12  bg-white"></div>
 			</div>
 		</>
 	);

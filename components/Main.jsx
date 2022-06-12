@@ -49,20 +49,19 @@ const Main = () => {
 							layout="fill"
 							objectFit="cover"
 							src={background}
-							alt="Background showing a modern wooden beach house"
+							alt="A background of a modern living room, with a plant next to a sofa with many cushions, and a coffee table in front."
+							priority
 						/>
 					</div>
 					<div className="z-10 absolute mx-auto">
 						<h1 className="py-2 text-white text-6xl md:text-8xl">
 							Let&apos;s find your dream home
 						</h1>
-						<p className="pb-4 md:py-4 text-white max-w-[80%] m-auto text-2xl md:text-3xl">
-							Best possible price and terms
-						</p>
+						<p className="pb-4 md:py-4 text-white max-w-[80%] m-auto text-2xl md:text-3xl"></p>
 						<div className="">
 							<button
-								className="bg-teal-800 border-teal-800 md:bg-transparent hover:px-8 border active:border-teal-800 active:bg-teal-800 active:text-white 
-							hover:border-teal-800 hover:text-white hover:bg-teal-800 md:border-white transition-all duration-500"
+								className="hover:bg-teal-800 bg-transparent border-white hover:px-8 border active:border-teal-800 active:bg-teal-800 active:text-white 
+							hover:border-teal-800 transition-all duration-500"
 							>
 								<Link href="/#contact">BOOK AN APPOINTMENT</Link>
 							</button>

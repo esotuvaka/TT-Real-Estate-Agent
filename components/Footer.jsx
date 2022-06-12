@@ -105,7 +105,6 @@ const Footer = () => {
 			>
 				<div className="flex justify-between w-11/12 mx-auto lg:w-4/5">
 					<div>Copyright © 2022 Tamar Tarkhanian</div>
-					<div>Site built by esotuvaka</div>
 				</div>
 			</section>
 		</footer>

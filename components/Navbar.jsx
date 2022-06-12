@@ -37,7 +37,7 @@ const Navbar = () => {
 			<div className="flex justify-between items-center w-4/5 md:max-w-[1240px] mx-auto h-full  ">
 				<Link href="/" className="w-[50px] h-[50px]">
 					<Image
-						src="/../public/assets/tamar logo black.png"
+						src="/../public/assets/tamar-logo-b.png"
 						alt="/"
 						width="50"
 						height="50"

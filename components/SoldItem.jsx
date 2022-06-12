@@ -11,15 +11,16 @@ const SoldItem = ({ area, price, title, backgroundImg, lStatus }) => {
 				height="230"
 				width="400"
 				alt="/"
+				layout="intrinsic"
 			/>
 			<div
 				id="lStatus"
 				className="w-14 top-0 left-0 absolute text-center text-white ml-2 mt-2"
 			>
-				<h2 className="ml-2 mt-2 text-white">{lStatus}</h2>
+				{/* <h2 className="ml-2 mt-2 text-white">{lStatus}</h2> */}
 			</div>
 			<div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-				<h3 className="text-3xl font-thin text-white tracking-wider text-center">
+				<h3 className="min-w-[200px] text-3xl font-thin text-white tracking-wider text-center">
 					{title}
 				</h3>
 				<p className=" pt-2 font-thin text-xl text-white text-center">{area}</p>
