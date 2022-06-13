@@ -59,10 +59,7 @@ const Main = () => {
 						</h1>
 						<p className="pb-4 md:py-4 text-white max-w-[80%] m-auto text-2xl md:text-3xl"></p>
 						<div className="">
-							<button
-								className="hover:bg-teal-800 bg-transparent border-white hover:px-8 border active:border-teal-800 active:bg-teal-800 active:text-white 
-							hover:border-teal-800 transition-all duration-500"
-							>
+							<button className="bg-teal-800 border border-teal-800 md:bg-transparent md:border-white">
 								<Link href="/#contact">BOOK AN APPOINTMENT</Link>
 							</button>
 						</div>

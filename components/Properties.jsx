@@ -12,15 +12,18 @@ import SoldItem from './SoldItem';
 
 const Properties = () => {
 	return (
-		<div id="properties" className="w-full lg:h-screen p-2 bg-white">
-			<div className="max-w-[1800px] mx-auto px-2 py-16 md:my-20">
+		<div
+			id="properties"
+			className="w-full lg:h-screen px-2 flex justify-center items-center bg-white"
+		>
+			<div className="flex flex-col max-w-[1800px] mx-auto px-2 pt-24 md:my-20 lg:my-0">
 				<h1 className="max-w-[1240px] mx-auto text-center text-xl tracking-widest uppercase text-teal-800">
 					Browse our Exclusive Listings
 				</h1>
 				<h2 className="max-w-[1240px] mx-auto text-center py-4">
 					Previously Sold
 				</h2>
-				<div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 lg:gap-4 xl:gap-6">
+				<div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 xl:gap-6">
 					<SoldItem
 						title="24301 Red Spruce Avenue "
 						area="Murrieta, CA, 92562 "
