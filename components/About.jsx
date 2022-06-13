@@ -44,12 +44,12 @@ const About = () => {
 						</button> 2xl:text-xl
 					</Link> */}
 				</div>
-				<div className="w-full h-auto m-auto shadow-xl shadow-gray-400  flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+				<div className=" h-auto m-auto shadow-xl shadow-gray-400  flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
 					<Image
 						src={pfp}
 						alt="Tamar Tarkhanian"
-						width="400"
-						height="500"
+						width="324"
+						height="486"
 						className=""
 					/>
 				</div>
