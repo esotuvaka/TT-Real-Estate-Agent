@@ -6,7 +6,7 @@ import sold4 from '../public/assets/sold/PW22055324.jpg';
 
 import sold5 from '../public/assets/sold/CV20208205.jpg';
 import sold6 from '../public/assets/sold/OC21012810.jpg';
-import sold7 from '../public/assets/sold/OC20081148.jpg';
+import sold7 from '../public/assets/sold/OC21037553.jpg';
 import sold8 from '../public/assets/sold/PW20212466.jpg';
 import SoldItem from './SoldItem';
 
@@ -67,9 +67,9 @@ const Properties = () => {
 						lStatus="Sold"
 					/>
 					<SoldItem
-						title="31 Bijou"
-						area="Irvine, CA, 92618"
-						price="$3,050 / mo"
+						title="1675 N Allen Ave."
+						area="Pasadena, CA, 91104"
+						price="$900,000"
 						backgroundImg={sold7}
 						lStatus="Sold"
 					/>
