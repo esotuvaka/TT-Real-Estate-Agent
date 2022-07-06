@@ -3,7 +3,7 @@ import React from 'react';
 
 const SoldItem = ({ area, price, title, backgroundImg, lStatus }) => {
 	return (
-		<div className="relative flex items-center justify-center h-auto w-full shadow-xl hover:shadow-none transition-all duration-500  shadow-gray-400 bg-white border-8 border-white group  ">
+		<div className="relative flex items-center justify-center h-auto w-full shadow-none hover:shadow-lg transition-all hover:shadow-neutral-600 duration-500 rounded-sm bg-white border-8 border-white group  ">
 			<div className="  group-hover:bg-neutral-700 bg-neutral-400 transition-all duration-500 h-min flex">
 				<Image
 					className="group-hover:opacity-25"

@@ -31,12 +31,12 @@ const Navbar = () => {
 			style={{ backgroundColor: `${navBg}` }}
 			className={
 				shadow
-					? 'fixed w-full h-20  shadow-xl z-[100]'
-					: 'fixed w-full  h-20 z-[100]'
+					? 'fixed w-full h-20  shadow-xl z-[100] '
+					: 'fixed w-full  h-20 z-[100] '
 			}
 		>
-			<div className="flex justify-between items-center w-4/5 md:max-w-[1240px] mx-auto h-full  ">
-				<Link href="/" className="w-[50px] h-[50px]">
+			<div className="flex justify-between items-center w-4/5 md:max-w-[1240px] mx-auto h-full 2xl:max-w-[67%]">
+				<Link href="/" className="w-[50px] h-[50px] ">
 					<Image
 						src={Logo}
 						alt="/"
@@ -51,22 +51,22 @@ const Navbar = () => {
 						className="hidden md:flex tracking-wider "
 					>
 						<Link href="/">
-							<li className="ml-10 text-sm uppercase tracking-widest transition-all duration-500 hover:border-b hover:border-teal-800">
+							<li className="ml-10 text-sm 2xl:text-xl uppercase tracking-widest transition-all duration-500 hover:border-b hover:border-black">
 								Home
 							</li>
 						</Link>
 						<Link href="/#about">
-							<li className="ml-10 text-sm uppercase tracking-widest transition-all duration-500 hover:border-b hover:border-teal-800">
+							<li className="ml-10 text-sm 2xl:text-xl uppercase tracking-widest transition-all duration-500 hover:border-b hover:border-black">
 								About
 							</li>
 						</Link>
 						<Link href="/#properties">
-							<li className="ml-10 text-sm uppercase tracking-widest transition-all duration-500 hover:border-b hover:border-teal-800">
+							<li className="ml-10 text-sm 2xl:text-xl uppercase tracking-widest transition-all duration-500 hover:border-b hover:border-black">
 								Properties
 							</li>
 						</Link>
 						<Link href="/#contact">
-							<li className="ml-10 text-sm uppercase tracking-widest transition-all duration-500 hover:border-b hover:border-teal-800">
+							<li className="ml-10 text-sm 2xl:text-xl uppercase tracking-widest transition-all duration-500 hover:border-b hover:border-black">
 								Contact
 							</li>
 						</Link>

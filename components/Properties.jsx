@@ -14,16 +14,16 @@ const Properties = () => {
 	return (
 		<div
 			id="properties"
-			className="w-full lg:h-screen px-2 flex justify-center items-center bg-white"
+			className="w-full lg:h-screen xl:h-[70vh] 2xl:h-[90vh]   flex justify-center items-center bg-white"
 		>
-			<div className="flex flex-col max-w-[1800px] mx-auto px-2 pt-24 md:my-20 lg:my-0">
-				<h1 className="max-w-[1240px] mx-auto text-center text-xl tracking-widest uppercase text-teal-800">
+			<div className="flex flex-col md:max-w-2xl mx-auto py-24 lg:pb-0 2xl:py-0 sm:max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-[80%] lg:my-0">
+				<h1 className="max-w-[1240px] mx-auto text-center text-xl tracking-widest uppercase text-teal-800 2xl:text-3xl">
 					Browse our Exclusive Listings
 				</h1>
-				<h2 className="max-w-[1240px] mx-auto text-center py-4">
+				<h2 className="max-w-[1240px] mx-auto text-center py-4 2xl:text-6xl">
 					Previously Sold
 				</h2>
-				<div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 xl:gap-6">
+				<div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-4 gap-2 lg:gap-4">
 					<SoldItem
 						title="24301 Red Spruce Avenue "
 						area="Murrieta, CA, 92562 "
