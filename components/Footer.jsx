@@ -54,26 +54,34 @@ const Footer = () => {
 					</div>
 					<div id="Links" className="py-7">
 						<ul className="flex-col ">
-							<Link href="/">
-								<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500 mb-4">
-									Home
-								</p>
-							</Link>
-							<Link href="/#about">
-								<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500 mb-4">
-									About
-								</p>
-							</Link>
-							<Link href="/#properties">
-								<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500 mb-4">
-									Properties
-								</p>
-							</Link>
-							<Link href="/#contact">
-								<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500">
-									Contact
-								</p>
-							</Link>
+							<li>
+								<Link href="/">
+									<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500 mb-4">
+										Home
+									</p>
+								</Link>
+							</li>
+							<li>
+								<Link href="/#about">
+									<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500 mb-4">
+										About
+									</p>
+								</Link>
+							</li>
+							<li>
+								<Link href="/#properties">
+									<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500 mb-4">
+										Properties
+									</p>
+								</Link>
+							</li>
+							<li>
+								<Link href="/#contact">
+									<p className="hover:cursor-pointer hover:text-teal-800 transition-all duration-500">
+										Contact
+									</p>
+								</Link>
+							</li>
 						</ul>
 					</div>
 				</div>
